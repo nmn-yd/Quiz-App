@@ -1,10 +1,12 @@
-const express = require("express");
-const server = express();
-const path = require("path"); // Import the path module
+const path = require("path");
+const questions = require(path.join(__dirname, "../../questions.json"));
 
-server.get("/.netlify/functions/questions", (req, res) => {
-  const questions = require(path.join(__dirname, "../../questions.json")); // Adjust the path
-  res.json(questions);
-});
-
-module.exports = server;
+exports.handler = async (event, context) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify(questions),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  };
+};

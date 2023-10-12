@@ -1,4 +1,3 @@
-
 # React Quiz App with Timer
 
 Welcome to the React Quiz App with Timer! This application allows users to take quizz on react concepts while keeping track of their time and high scores. The app features a user-friendly UI and a reset quiz button for a seamless user experience.
@@ -9,9 +8,11 @@ Welcome to the React Quiz App with Timer! This application allows users to take 
 - Timer to track your progress and challenge yourself.
 - Display your high score to track your improvement.
 - Reset the quiz at the end of the quiz.
-
+  a
+  sdasdawtadfas
 
 ## Screenshoot
+
 ![Screenshot 2023-08-19 171843](https://github.com/nmn-yd/Quiz-App/assets/97431919/8d16ed94-cd5a-435e-9834-8c1006ee22cd)
 
 ![Screenshot 2023-08-19 171854](https://github.com/nmn-yd/Quiz-App/assets/97431919/f6eed52b-ed64-4c24-a7bb-ff4bf2d48252)

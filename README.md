@@ -8,8 +8,6 @@ Welcome to the React Quiz App with Timer! This application allows users to take 
 - Timer to track your progress and challenge yourself.
 - Display your high score to track your improvement.
 - Reset the quiz at the end of the quiz.
-  a
-  sdasdawtadfas
 
 ## Screenshoot
 
